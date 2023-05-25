@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="recherche">
+            <input type="text" id="searchInput" placeholder="Rechercher un Pokémon">
+            <select id="selectTypes">
+                <option value="normal">normal</option>
+                <option value="fighting">fighting</option>
+                <option value="flying">flying</option>
+                <option value="poison">poison</option>
+                <option value="ground">ground</option>
+                <option value="rock">rock</option>
+                <option value="bug">bug</option>
+                <option value="ghost">ghost</option>
+                <option value="steel">steel</option>
+                <option value="fire">fire</option>
+                <option value="water">water</option>
+                <option value="grass">grass</option>
+                <option value="electric">electric</option>
+                <option value="psychic">psychic</option>
+                <option value="ice">ice</option>
+                <option value="dragon">dragon</option>
+                <option value="dark">dark</option>
+                <option value="fairy">fairy</option>
+                <option value="unknown">unknown</option>
+                <option value="shadow">shadow</option>
+            </select>
+        </form>
+        <div class="centre">
+            <div class="partiGauche">
+                <div class="haut">
+                    <ul id="listePokemon"></ul>
+                </div>
+                <div class="bouton">
+                    <button id="pagePrecedent">Precedent</button>
+                    <button id="pageSuivante">Suivant</button>
+                </div>
+            </div>
+            <div class="partiDroite" id="blocc">
+                <img src="" id="imgPokemon" alt="">
+                <h2 id="idNomPokemon"></h2>
+                <p id="typePokemon"></p>
+                <p id="heightPokemon"></p>
+                <p id="weightPokemon"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

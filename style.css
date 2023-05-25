@@ -1,0 +1,56 @@
+body {
+    background-image: url(background.webp);
+    overflow-y: hidden;
+}
+
+.centre {
+    display: flex;
+}
+
+.partiGauche {
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 40px;
+
+}
+
+#listePokemon {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+
+
+.partiDroite {
+    display: none;
+    margin-right: 520px;
+    margin-top: 240px;
+    width: 60%;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recherche {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+
+img {
+    width: 350px;
+}
+
+
+
+li {
+    margin-right: 35px;
+    font-size: 27px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
